@@ -3,5 +3,13 @@
 @tailwind utilities;
 
 .p {
-    @apply text-base
+    @apply text-base leading-[24px]
+}
+
+.h6 {
+    @apply text-[20px]
+}
+
+.h1 {
+    @apply text-[36px] lg:text-[64px] leading-[48px] lg:leading-[76px]
 }

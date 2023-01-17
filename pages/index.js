@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Navbar from "../components/Navbar";
+import Hero from "../components/Hero";
 
 export default function Home() {
   return(
@@ -7,8 +7,8 @@ export default function Home() {
       <Head>
         <title>Jarvis Nu</title>
       </Head>
-      <main className="min-h-screen bg-pink/10 w-full">
-        <Navbar />
+      <main className="min-h-screen w-full">
+        <Hero />
       </main>
     </div>
   )
