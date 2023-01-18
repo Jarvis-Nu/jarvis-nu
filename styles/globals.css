@@ -6,8 +6,12 @@
     @apply text-base leading-[24px]
 }
 
+.h5 {
+    @apply text-[28px] leading-[28px]
+}
+
 .h6 {
-    @apply text-[20px]
+    @apply text-[20px] leading-[30px]
 }
 
 .h1 {

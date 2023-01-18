@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Hero from "../components/Hero";
+import Satisfied from "../components/Satisfied";
 
 export default function Home() {
   return(
@@ -9,6 +10,7 @@ export default function Home() {
       </Head>
       <main className="min-h-screen w-full">
         <Hero />
+        <Satisfied />
       </main>
     </div>
   )
