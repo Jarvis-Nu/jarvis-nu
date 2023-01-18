@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Develop from "../components/Develop";
 import Hero from "../components/Hero";
+import Portfolio from "../components/Portfolio";
 import Satisfied from "../components/Satisfied";
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
         <Hero />
         <Satisfied />
         <Develop />
+        <Portfolio />
       </main>
     </div>
   )

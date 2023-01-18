@@ -1,6 +1,6 @@
 export default function Satisfied() {
     return(
-        <div className="w-full px-4 lg:px-20 py-4 lg:py-8 sm:p-8 md:px-12 flex flex-col md:flex-row
+        <div className="w-full px-4 lg:px-20 py-4 lg:py-8 sm:p-8 md:px-12 flex flex-col md:flex-row mt-10
          justify-center items-center md:space-x-[50px] lg:space-x-[75px] xl:space-x-[150px] space-y-5 md:space-y-0">
             <div className="max-w-[220px] text-center md:text-start">
                 <h1 className="font-bold h1 text-pink">80+</h1>
