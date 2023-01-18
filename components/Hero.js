@@ -12,8 +12,9 @@ export default function Hero() {
                         <h1 className="font-bold text-ink h1">Lorem ipsum dolor sit amet</h1>
                         <p className="p">
                             Lorem ipsum dolor sit amet consectetur. Est est dictumst at montes nullam.
-                             Iaculis eu scelerisque amet sem massa risus urna volutpat.
-                              Bibendum massa nulla nunc enim commodo.</p>
+                            Iaculis eu scelerisque amet sem massa risus urna volutpat.
+                            Bibendum massa nulla nunc enim commodo.
+                        </p>
                     </div>
                     <div className="relative max-w-[273px] lg:w-[400px] xl:max-w-[490px]">
                         <Image src={"/triangle.png"} alt="" width={490} height={480} />
