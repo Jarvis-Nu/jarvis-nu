@@ -9,14 +9,14 @@ export default function Portfolio() {
                 <p className="p px-5">Lorem ipsum dolor sit amet consectetur. Dui dictumst turpis tellus integer vulputate.</p>
             </div>
             <div className="w-full flex justify-center items-center h-full relative space-x-2.5">
-                <div className="min-w-[250px] min-h-[415px] bg-[url('/proj1.png')] bg-center rounded-xl" />
+                <div className="min-w-[250px] min-h-[415px] bg-[url('/proj1.png')] bg-center rounded-xl bg-cover" />
                 <div className="space-y-4 h-full">
                     <div className="flex space-x-4 max-h-[200px]">
-                        <div className="min-w-[250px] min-h-[200px] bg-[url('/proj2.png')] bg-center rounded-xl" />
-                        <div className="min-w-[250px] min-h-[200px] bg-[url('/proj3.png')] bg-center rounded-xl" />
+                        <div className="min-w-[250px] min-h-[200px] bg-[url('/proj2.png')] bg-center rounded-xl bg-cover" />
+                        <div className="min-w-[250px] min-h-[200px] bg-[url('/proj3.png')] bg-center rounded-xl bg-cover" />
                     </div>
                     <div>
-                        <div className="min-w-[400px] min-h-[200px] bg-[url('/proj4.png')] bg-center rounded-xl" />
+                        <div className="min-w-[400px] min-h-[200px] bg-[url('/proj4.png')] bg-center rounded-xl bg-cover" />
                     </div>
                 </div>
             </div>
