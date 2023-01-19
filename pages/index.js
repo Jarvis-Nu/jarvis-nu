@@ -10,7 +10,7 @@ export default function Home() {
       <Head>
         <title>Jarvis Nu</title>
       </Head>
-      <main className="min-h-screen w-screen">
+      <main className="min-h-screen w-full">
         <Hero />
         <Satisfied />
         <Develop />
