@@ -32,15 +32,15 @@ export default function OurTeam() {
                 <p className="p px-2.5 sm:px-10 lg:px-5">Lorem ipsum dolor sit amet consectetur. Dui dictumst turpis tellus integer vulputate.</p>
             </div>
             <div className="w-full flex justify-center items-center">
-                <div className="max-w-[850px]">
-                    <Slide slidesToScroll={1} slidesToShow={1} indicators={true}>
+                <div className="max-w-[300px] lg:max-w-[850px]">
+                    <Slide slidesToScroll={1} slidesToShow={1} indicators={true} arrows={false} duration={2000}>
                         {
                             TeamData.map(data => (
-                                <div className="w-full flex space-x-10">
-                                    <div className="relative rounded-xl max-w-[300px] sm:max-w-[400px]">
+                                <div className="w-full flex flex-col lg:flex-row lg:space-x-10">
+                                    <div className="relative rounded-xl max-w-[300px] lg:max-w-[400px]">
                                         <Image src={"/person.png"} width={350} height={350} alt="" />
                                     </div>
-                                    <div className="max-w-[500px] space-y-3.5">
+                                    <div className="lg:max-w-[500px] space-y-3.5">
                                         <h1 className="h1 font-semibold text-pink">{data.name}</h1>
                                         <h6 className="h6 text-ink font-semibold">{data.role}</h6>
                                         <p className="w-full p">{data.description}</p>
