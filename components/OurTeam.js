@@ -35,7 +35,7 @@ export default function OurTeam() {
                     <Slide slidesToScroll={1} slidesToShow={1} indicators={true} arrows={false} duration={2000}>
                         {
                             TeamData.map(data => (
-                                <div className="w-full flex flex-col lg:flex-row lg:space-x-10 text-center lg:text-start">
+                                <div className="w-full flex flex-col lg:flex-row lg:space-x-10 text-center lg:text-start space-y-3.5 lg:space-y-0">
                                     <div className="relative rounded-xl max-w-[300px] sm:max-w-[400px]">
                                         <Image src={"/person.png"} width={500} height={500} alt="" />
                                     </div>

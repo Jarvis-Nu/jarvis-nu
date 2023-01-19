@@ -3,6 +3,7 @@ import Develop from "../components/Develop";
 import Hero from "../components/Hero";
 import OurTeam from "../components/OurTeam";
 import Portfolio from "../components/Portfolio";
+import Reviews from "../components/Reviews";
 import Satisfied from "../components/Satisfied";
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
         <Develop />
         <Portfolio />
         <OurTeam />
+        <Reviews />
       </main>
     </div>
   )
