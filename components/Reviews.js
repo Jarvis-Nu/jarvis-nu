@@ -8,7 +8,7 @@ export default function Reviews() {
                 <h1 className="font-bold text-ink h1">Testimonials From Our Clients</h1>
                 <p className="p px-2.5 sm:px-10 lg:px-5">Lorem ipsum dolor sit amet consectetur. Dui dictumst turpis tellus integer vulputate.</p>
             </div>
-            <div className="flex space-x-5 lg:w-[850px]">
+            <div className="lg:w-[850px] grid sm:grid-cols-2 lg:grid-cols-3 gap-3.5">
                 <Testimonial />
                 <Testimonial />
                 <Testimonial />

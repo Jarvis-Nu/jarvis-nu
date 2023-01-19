@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Testimonial(quote, image, name, job) {
     return(
-        <div className="border border-[#EEEEEE] p-4 rounded-xl space-y-4">
+        <div className="border border-[#EEEEEE] p-4 rounded-xl space-y-4 max-w-[300px] lg:max-w-full">
             <div>
                 <p className="p">
                     "Dicat eripuit accumsan facilisi has cetero argumentum, 
